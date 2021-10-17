@@ -1,0 +1,12 @@
+md5: 2c0200af07ad20f2daa08263bad721ce
+frozen: true
+deps:
+- path: processed/01_image_dataset/data/outputs/night_images
+  repo:
+    url: https://github.com/marcopaspuel/image-data-registry-dvc
+    rev_lock: 4a2d66fb64c633e93b5ae158e82f921c06ea09f2
+outs:
+- md5: 6ed2644901a5850b96d11616d976a340.dir
+  size: 460938
+  nfiles: 6
+  path: night_images
