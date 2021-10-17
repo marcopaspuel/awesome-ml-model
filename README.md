@@ -1,5 +1,13 @@
 # awesome-ml-model
-This project contains an example of how to use a DVC data registry to import training data. 
+This project contains an example of how to use a DVC data registry to import training data.
+
+### Flow Diagram
+
+![pycharm0](assets/image-data-registry-dvc-flow-diagram.png)
+
+### Project Infrastructure
+
+![pycharm0](assets/image-data-registry-dvc-infra.png)
 
 Initialize the project with:
 ```bash
