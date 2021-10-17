@@ -1,12 +1,12 @@
-md5: 25e59e5905591c1312c5773919e3e8d2
+md5: 64fbe675431ca73a6ea4c74654edbe1e
 frozen: true
 deps:
 - path: processed/01_image_dataset/data/outputs/day_images
   repo:
     url: https://github.com/marcopaspuel/image-data-registry-dvc
-    rev_lock: 4a2d66fb64c633e93b5ae158e82f921c06ea09f2
+    rev_lock: 7cc3ef93aeb621e6e8c8881afec86f1ac81e212c
 outs:
-- md5: a27a2e34abc3b6e7bca4372b19de5c69.dir
-  size: 1756268
-  nfiles: 12
+- md5: 940cbcd090044da0b25fd0c21367c214.dir
+  size: 2017532
+  nfiles: 14
   path: day_images

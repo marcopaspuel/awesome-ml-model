@@ -32,3 +32,25 @@ poetry run dvc import https://github.com/marcopaspuel/image-data-registry-dvc \
                       processed/01_image_dataset/data/outputs/night_images \
                       -o data/training
 ```
+
+## Update processed dataset
+
+Create a new branch
+```bash
+git checkout -b update-processed-dataset
+```
+Update the datasets 
+
+```bash
+poetry run dvc update data/training/day_images.dvc
+```
+
+```bash
+poetry run dvc update data/training/night_images.dvc
+```
+
+Commit and push
+```bash
+git push
+poetry run dvc push
+```
