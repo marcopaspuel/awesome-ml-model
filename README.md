@@ -54,3 +54,5 @@ Commit and push
 git push
 poetry run dvc push
 ```
+
+Open a PR and merge 
