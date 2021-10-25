@@ -94,4 +94,4 @@ git push
 poetry run dvc push
 ```
 
-Finally, open a PR and merge.
+Finally, you can open a PR and merge.
